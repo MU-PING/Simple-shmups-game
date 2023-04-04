@@ -12,7 +12,7 @@ class ShmupGUI():
         pygame.display.set_caption("Shmup Game")
         
         # background music
-        pygame.mixer.music.load('Music/Stage1.mp3')
+        pygame.mixer.music.load('Music/background.mp3')
         pygame.mixer.music.set_volume(0.01)
         
         # create the display surface object of specific dimension.
